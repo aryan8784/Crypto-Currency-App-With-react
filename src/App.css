@@ -1,0 +1,101 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  /* padding: 2rem; */
+  text-align: center;
+}
+
+.logo {
+  /* height: 6em; */
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+  cursor: pointer;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #1b25ddaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #15c4f5aa);
+}
+
+.App {
+  min-height: 100vh;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  padding: 40px;
+  font-size: 16px;
+  background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+}
+
+h1 {
+  color: forestgreen;
+}
+input {
+  padding: 5px;
+  padding-left: 10px;
+  font-size: 20px;
+  width: 350px;
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+  background-color: #dfe9f3;
+  outline: none;
+}
+
+table {
+  width: 1000px;
+  border-collapse: separate;
+  border-spacing: 0 1em;
+}
+
+thead {
+  background-color: rgb(44, 44, 44);
+  color: #fff;
+  text-align: center;
+}
+
+thead,
+tr,
+th {
+  padding: 10px;
+  /* border: 1px solid black; */
+}
+
+tbody > tr,
+td {
+  text-align: center;
+  border: 1px solid black;
+  cursor: pointer;
+}
+.tbody > tr,
+td:hover {
+  background-color: black;
+  color: #fff;
+  transition: 0.6s;
+ transform: scale(1.1);
+}
+
+.rank {
+  text-align: center;
+  font-weight: bold;
+}
+
+.logo {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 10%;
+  gap: 10px;
+}
+
+.logo img {
+  width: 50px;
+  height: 50px;
+}
+
+.symbol {
+  text-align: center;
+}
